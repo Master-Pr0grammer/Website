@@ -6,3 +6,15 @@ body{
     background-color: #333;
     color: whitesmoke;
 }
+
+a{
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover, a:active {
+    color: #eee;
+}
