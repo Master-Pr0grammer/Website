@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px dashed red; */
+    /* outline: 2px solid red; */
 }
 
 @keyframes fade-in {
@@ -86,4 +86,9 @@ a:active {
 video{
     max-width: 100%;
     min-width: 50%;
+    margin: 1rem;
+}
+
+img{
+    margin: 1rem;
 }
