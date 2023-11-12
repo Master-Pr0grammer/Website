@@ -16,7 +16,7 @@
         <p class="main_description">This is the page with all of my projects and project descriptions</p>
 
         <h2>Pages:</h2>
-        <ul>
+        <ul class="indent">
             <li>
                 <a href="index.html">Home Page</a>
             </li>
@@ -34,7 +34,7 @@
     <main>
         <h2>Quick Jump</h2>
 
-        <nav>
+        <nav class="indent">
             <ul>
                 <li>
                     <a href="#project1">Project #1</a> - <em>Space Raiders</em>
@@ -57,9 +57,9 @@
 
         <section id="project1">
             <h3>Project #1: Space Raiders</h3>
-            <p><em>Where it all began - my first program</em></p>
+            <p><em>- Where it all began: my first program</em></p>
 
-            <figure>
+            <figure class="indent">
                 <video src="videos/Space_Raiders.mkv" type="video/mkv" alt="Space Raiders Video" poster="images/Space_Raiders_Menu.png" loop autoplay muted></video>
                 <figcaption><em>- Space Raiders Gameplay</em></figcaption>
             </figure>
@@ -72,6 +72,8 @@
                 higher the score you earn. Here, you can see in the video some real gameplay of the game!
             </p>
 
+            <br>
+
             <p>
                 <a href="#">Back to Top</a>
             </p>
@@ -81,9 +83,9 @@
 
         <section id="project2">
             <h3>Project #2: Platform Jumper</h3>
-            <p><em>- Video game round 2, improving on the last...</em></p>
+            <p ><em>- Video game round 2, improving on the last...</em></p>
 
-            <figure>
+            <figure class="indent">
                 <video src="videos/Platform_Jumper.mkv" type="video/mkv" alt="Platform Jumper Video" poster="images/Platform_Jumper_Poster.png" loop autoplay muted></video>
                 <figcaption><em>- Platform Jumper Gameplay</em></figcaption>
             </figure>
@@ -96,7 +98,7 @@
                 when compared
                 to the last, here are a few:
             <ul class="indent">
-                <li>
+                <li class="indent">
                     <em class="bold">Collision Detection:</em> dynamic hitbox algorithm that is used to calculate
                     collisions for any abitrary defined object
                     allowing the creation of complex levels.
@@ -104,7 +106,7 @@
 
                 <br>
 
-                <li>
+                <li class="indent">
                     <em class="bold">Particle Animation Algorithm:</em> Using the draw feature in the PyGame library, I
                     implemented an algoithm that displayed
                     a trailing particle effect where the particles had a decaying size reletive to the random initial
@@ -113,7 +115,7 @@
 
                 <br>
 
-                <li>
+                <li class="indent">
                     <em class="bold">infinitly Tiling Background:</em> implemented a infinitly tiling background where
                     the background tiles in order to create the
                     illusion of movement while being able to keep the backgroud completely filled in with out breaking
@@ -121,6 +123,8 @@
                 </li>
             </ul>
             </p>
+
+            <br>
 
             <p>
                 <a href="#">Back to Top</a>
@@ -132,7 +136,7 @@
             <h3>Project #3: GPU Web Scraper</h3>
             <p><em>- Getting a free modern GPU during a world-wide microchip shortage</em></p>
 
-            <figure>
+            <figure class="indent">
                 <img src="images/GPU_Destroyer1.png" alt="GPU Scraper Code Image" width="100%"
                     loading="lazy">
                 <figcaption><em>- GPU Web Scraper Code</em></figcaption>
@@ -150,6 +154,8 @@
                 that of which I paid, completely covering the cost of the second.
             </p>
 
+            <br>
+
             <p>
                 <a href="#">Back to Top</a>
             </p>
@@ -160,7 +166,7 @@
             <h3>Project #4: Wordle Bot</h3>
             <p><em>- Destroying wordle with algorithms</em></p>
 
-            <figure>
+            <figure class="indent">
                 <img class="center" src="images/Wordle_logo.png" alt="Wordle Logo Image" width="75%"
                     loading="lazy">
             </figure>
@@ -172,6 +178,8 @@
                 highest chance to eliminate the most remaining valid words. In simple terms, its essentually just an extremely optimized proccess 
                 of elimination algorithm.
             </p>
+
+            <br>
 
             <p>
                 <a href="#">Back to Top</a>
