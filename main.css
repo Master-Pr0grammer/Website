@@ -60,3 +60,18 @@ a:active {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: gray;
 }
+
+.indent {
+    margin-inline: 2em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

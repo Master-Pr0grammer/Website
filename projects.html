@@ -37,45 +37,170 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#project1">Project #1</a>
+                    <a href="#project1">Project #1</a> - <em>Space Raiders</em>
                 </li>
 
                 <li>
-                    <a href="#project2">Project #2</a>
+                    <a href="#project2">Project #2</a> - <em>Platform Jumper</em>
                 </li>
 
                 <li>
-                    <a href="#project3">Project #3</a>
+                    <a href="#project3">Project #3</a> - <em>GPU Web Scraper</em>
+                </li>
+
+                <li>
+                    <a href="#project4">Project #4</a> - <em>Wordle Bot</em>
                 </li>
             </ul>
         </nav>
-
         <br>
 
         <section id="project1">
             <h3>Project #1: Space Raiders</h3>
-            <p><em>Where it all began - my first code</em></p>
+            <p><em>Where it all began - my first program</em></p>
 
             <figure>
-                <img src="images/Space_Raiders_Menu.png" alt="Space Raiders Menu Screen Image" width="800" height="596"
-                    loading="lazy">
-                <figcaption>- Space Raiders Menu Screen</figcaption>
+                <video src="videos/Space_Raiders.mkv" type="video/mkv" alt="Space Raiders Video" width="800"
+                    height="600" loop autoplay muted></video>
+                <figcaption><em>- Space Raiders Gameplay</em></figcaption>
             </figure>
 
-            <p>&nbsp;&nbsp;&nbsp;This is the project #1 description</p>
+            <p class="indent">
+                &emsp;&emsp;This is my first ever program. In my senior year of highschool, starting from
+                knowing nothing about python and almost nothing about programming in general, I decided to
+                learn how to code and made this in a single day. It's a simple game that called Space Raider
+                where you have to avoid an asteroid that speeds up overtime, and the longer you survive, the
+                higher the score you earn. Here, you can see in the video some real gameplay of the game!
+            </p>
+
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+
         </section>
+        <br>
 
         <section id="project2">
-            <h3>Project #2</h3>
+            <h3>Project #2: Platform Jumper</h3>
+            <p><em>- Video game round 2, improving on the last...</em></p>
 
-            <p>&nbsp;&nbsp;&nbsp;This is the project #2 description</p>
+            <figure>
+                <video src="videos/Platform_Jumper.mkv" type="video/mkv" alt="Space Raiders Video" width="800"
+                    height="500" loop autoplay muted></video>
+                <figcaption><em>- Platform Jumper Gameplay</em></figcaption>
+            </figure>
+
+            <p class="indent">
+                &emsp;&emsp;This is my second program that I have made, improving upon the last in both functionality
+                and program complexity. It's another game just like the last, and the point of this game is to complete
+                a level by making
+                it from point A to B with out falling, or dying in some way. This game has much more complex features
+                when compared
+                to the last, here are a few:
+            <ul class="indent">
+                <li>
+                    <em class="bold">Collision Detection:</em> dynamic hitbox algorithm that is used to calculate
+                    collisions for any abitrary defined object
+                    allowing the creation of complex levels.
+                </li>
+
+                <br>
+
+                <li>
+                    <em class="bold">Particle Animation Algorithm:</em> Using the draw feature in the PyGame library, I
+                    implemented an algoithm that displayed
+                    a trailing particle effect where the particles had a decaying size reletive to the random initial
+                    size, and time alive.
+                </li>
+
+                <br>
+
+                <li>
+                    <em class="bold">infinitly Tiling Background:</em> implemented a infinitly tiling background where
+                    the background tiles in order to create the
+                    illusion of movement while being able to keep the backgroud completely filled in with out breaking
+                    immersion.
+                </li>
+            </ul>
+            </p>
+
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
         </section>
+        <br>
 
         <section id="project3">
-            <h3>Project #3</h3>
+            <h3>Project #3: GPU Web Scraper</h3>
+            <p><em>- Getting a free modern GPU during a world-wide microchip shortage</em></p>
 
-            <p>&nbsp;&nbsp;&nbsp;This is the project #3 description</p>
+            <figure>
+                <img src="images/GPU_Destroyer1.png" alt="GPU Scraper Code Image" width="1700" height="485"
+                    loading="lazy">
+                <figcaption><em>- GPU Web Scraper Code</em></figcaption>
+            </figure>
+
+            <p class="indent">
+                &emsp;&emsp;After making two programs and building a custom PC, I needed a GPU for my PC to be able to
+                further develope more ambishious projects in the future. However,
+                this was during the peak of the 2021 world-wide chip shortage of the pandemic, where demand for such a
+                hardware component was at a record high. So I created a web scraper bot
+                to autonomously monitor websites that sold the hardware component at MSRP. I learned a lot of valuable
+                lessons about HTML5 along the way that eventually helped me to create this
+                vrey website, but eventually after many close calls, the program suceeded twice securing two highly
+                valuable GPU's (Radeon 6600xt & RTX 3060ti), where the first I resold for twice
+                that of which I paid, completely covering the cost of the second.
+            </p>
+
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
         </section>
+        <br>
+
+        <section id="project4">
+            <h3>Project #4: Wordle Bot</h3>
+            <p><em>- Destroying wordle with algorithms</em></p>
+
+            <figure>
+                <img class="center" src="images/Wordle_logo.png" alt="Wordle Logo Image" width="743" height="120"
+                    loading="lazy">
+            </figure>
+
+            <p class="indent">
+                &emsp;&emsp;This project is able to beat wordle with a perfect <span class="bold">100%</span> accuracy. Using the ideas
+                of information theory, the wordle algorithm goes through every possible guess calculating the number of average remaining words
+                for each guess, and returns the words with the lowest average number of remaining words, or in other words, the words with the
+                highest chance to eliminate the most remaining valid words. In simple terms, its essentually just an extremely optimized proccess 
+                of elimination algorithm.
+            </p>
+
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </section>
+
+        <!-- <section id="project5">
+            <h3>Project #5: Neural Network From Scratch</h3>
+            <p><em>- Implementing a neural network library completely from scratch</em></p>
+
+            <figure>
+                <img class="center" src="images/Wordle_logo.png" alt="Wordle Logo Image" width="743" height="120"
+                    loading="lazy">
+            </figure>
+
+            <p class="indent">
+                &emsp;&emsp;This project is able to beat wordle with a perfect <span class="bold">100%</span> accuracy. Using the ideas
+                of information theory, the wordle algorithm goes through every possible guess calculating the number of average remaining words
+                for each guess, and returns the words with the lowest average number of remaining words, or in other words, the words with the
+                highest chance to eliminate the most remaining valid words. In simple terms, its essentually just an extremely optimized proccess 
+                of elimination algorithm.
+            </p>
+
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </section> -->
 
     </main>
 
