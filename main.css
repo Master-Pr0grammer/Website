@@ -32,6 +32,7 @@ header {
     color: #333;
     padding-inline: 3%;
     padding-block: 0.5%;
+    padding-bottom: 1.5rem;
     margin-top: 20px;
     border-radius: 15px;
 }
